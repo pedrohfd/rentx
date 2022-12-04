@@ -15,8 +15,11 @@ import {
   Title,
 } from './styles'
 import { Dimensions } from 'react-native'
+import { useOnboardController } from './controller'
 
 export const Onboard = () => {
+  const { handleNavigationHome } = useOnboardController()
+
   return (
     <Container>
       <MotiView
@@ -106,7 +109,7 @@ export const Onboard = () => {
           segurança.
         </Subtitle>
 
-        <Button onPress={() => console.log('teste')}>
+        <Button onPress={handleNavigationHome}>
           <ButtonIcon width={8} height={13} />
         </Button>
       </Content>

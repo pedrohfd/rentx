@@ -16,6 +16,7 @@ import {
 } from '@expo-google-fonts/archivo'
 import { colors } from '../styles/colors'
 import { View } from 'react-native'
+import { Home } from '../pages/Home'
 
 SplashScreen.preventAutoHideAsync()
 
@@ -46,6 +47,7 @@ export const Routes = () => {
         }}
       >
         <Stack.Screen name='Onboard' component={Onboard} />
+        <Stack.Screen name='Home' component={Home} />
       </Stack.Navigator>
     </NavigationContainer>
   )
