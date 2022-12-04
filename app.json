@@ -3,8 +3,9 @@
     "name": "rentx",
     "slug": "rentx",
     "version": "1.0.0",
-    "assetBundlePatterns": [
-      "**/*"
-    ]
+    "assetBundlePatterns": ["**/*"],
+    "splash": {
+      "backgroundColor": "#1B1B1F"
+    }
   }
 }
