@@ -1,7 +1,6 @@
 import { MotiImage, MotiView } from 'moti'
 import React from 'react'
 
-import XIcon from '../../assets/icons/X.svg'
 import Logo from '../../assets/icons/logo.svg'
 
 import {
@@ -16,7 +15,6 @@ import {
   Title,
 } from './styles'
 import { Dimensions } from 'react-native'
-import { colors } from '../../styles/colors'
 
 export const Onboard = () => {
   return (
